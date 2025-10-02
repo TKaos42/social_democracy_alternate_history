@@ -21,7 +21,7 @@ The Reichstag elections are to be held now.
 @cancel_elections
 title: We cannot hold the elections now. Cancel the elections.
 subtitle: This is an anti-democratic move that may backfire.
-view-if: in_emergency_government == 1 and president == "Braun" and not presidential_powers
+view-if: in_emergency_government == 1 and president == "Stupid S. Stupid" and not presidential_powers
 
 Since we are currently ruling as part of an emergency government, we may use quasi-constitutional trickery to significantly delay these elections, and continue governing via Article 48. This is likely to be extremely unpopular both with our base and with the other parties. However, this may be necessary to prevent the extremists from gaining power.
 
@@ -201,10 +201,10 @@ if (Q.sapd_formed && Q.sapd_r) {
 }
 data = data.concat([
     {
-        "id": "spd",
-        "legend": "SPD",
-        "name": "SPD",
-        "seats": Math.round(Q.spd_r*5),
+        "id": "sipbp",
+        "legend": "SIPBP",
+        "name": "SIPBP",
+        "seats": Math.round(Q.sipbd_r*5),
     },
     {
         "id": "ddp",
